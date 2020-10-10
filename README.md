@@ -1,6 +1,5 @@
 ![Pikinhop logo](/static/images/pikinhoplogowhite.jpg "Pikinhop logo")
-# eCommerce Store
-## Django Project
+## eCommerce Store
 ### [Semicolon Africa](https://www.semicolon.africa/)
 ##### <em>Raphael Sani</em>
 ###### Cohort 4
@@ -9,23 +8,26 @@
 ![Pikinhop erd](/static/images/pikinhoperddiagram.jpg "Pikinhop erd diagram")
 
 #### Overview
-<p>The diagram above represents **PikinHob** children ecommerce model for cohort 4 Django project.</p> 
-We will be working within our apps model.py located in the store app.
-Here we created 5 models, not including the build in Django User model.
-1.	**_User_** – Built in is this _Django User_ model. An instance of this model will be created for each customer that registers with our website. This model will give us the ability to later use _Django default authentication_ system without having to manually set this up ourselves.
-2.	**_Customer_** – Along with the user model each customer will contain a Customer model that holds a one to one relationship to each user _(OneToOneField)_
-3.	**_Product_** – The Product model represents the products we have in store.
-4.	**Order** – Order represents a transaction that is placed or pending. The model will hold information such as the transaction_ID, date_completed and order_status.
-5.	**_OrderItem_** – An order item is one item with an order. For example, a shopping cart may consist of many items but it’s all part of one order.Therefore, the OrderItem will be a child of the PRODUCT and the ORDER model.
-6.	**_ShippingAddress_** – Not every order will need shipping information. For orders containing physical products that need to be shipped, we will need to create an instance of the shipping model to know where to send the order. Shipping will simply be a child of the order model when necessary.
+<p>The diagram above represents PikinHob children ecommerce model for cohort 4 Django project.</p> 
+<p>We will be working within our apps model.py located in the store app.
+Here we created 5 models, not including the build in Django User model.</p>
+<p> 1.	User – Built in is this _Django User_ model. An instance of this model will be created for each customer that registers with our website. 
+This model will give us the ability to later use _Django default authentication_ system without having to manually set this up ourselves. </p>
+<p> 2.	Customer – Along with the user model each customer will contain a Customer model that holds a one to one relationship to each user (OneToOneField). </p>
+<p> 3.	Product – The Product model represents the products we have in store. </p>
+<p> 4.	Order – Order represents a transaction that is placed or pending. The model will hold information such as the transaction_ID, date_completed and order_status. </p>
+<p> 5.	OrderItem – An order item is one item with an order. For example, a shopping cart may consist of many items but it’s all part of one order.Therefore, the OrderItem will be a child of the PRODUCT and the ORDER model. </p>
+<p> 6.	ShippingAddress – Not every order will need shipping information. For orders containing physical products that need to be shipped, we will need to create an instance of the shipping model to know where to send the order. 
+Shipping will simply be a child of the order model when necessary. </p>
 
 
-Workflow
+#### Workflow
 My website workflow is as below:
 1) user sign up and redirect to login screen once registration successful.
 2) user login and now he/she sees a form, where he/she needs to fill in mandatory fields
 3) use information is saved and then user go to store click on "Add to cart" button(in the store item display) to add chosen item to cart, or click on "arrow up or down" in cart  to increase or reduce the quantity of items in cart, continue button will redirect to the checkout page automatically for order processing.
-what's working:
+
+#### What's working:
 	Registration page
 	Login page
 	User successfully able to fill in the extra information
@@ -33,11 +35,13 @@ what's working:
 	Data getting saved in DB.
 	User enters store
 	Process and check out order
-What's not working:
+
+#### What's not working:
 The checkout page that is getting generated for shipping information that leads to payment processing is reloading and not getting populated or moving to the next page.
 Pending.
-I have examined the code without any trace of where it might have gone wrong.
-**_Register Use-case (template)_**
+I have examined the code without any trace of where it might have gone wrong. <br />
+
+#### Register Use-case (template)
 * [x] Use case name: Register
 * [x] Description: All users of the system must register for account
 * [x] Primary actor: Customer
@@ -71,7 +75,7 @@ I have examined the code without any trace of where it might have gone wrong.
     Registration details saved and new customer account created
 
 
-**Use Case name: Log in**
+#### Use Case name: Log in
 * [x] Description: all users are required to authenticate to access sensitive information
 * [x] Primary Actor(s): customer, admin
 * [x] Secondary Actor: Actor
