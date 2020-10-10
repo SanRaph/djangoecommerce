@@ -1,4 +1,4 @@
-     ![Pikinhop erd](/static/images/pikinhoplogo.png "Pikinhop logo")
+![Pikinhop erd](/static/images/pikinhoplogowhite.png "Pikinhop logo")
 # eCommerce Store
 ## Django Project
 ### [Semicolon Africa](https://www.semicolon.africa/)
