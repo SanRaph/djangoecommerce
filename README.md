@@ -28,17 +28,17 @@ My website workflow is as below:
 3) use information is saved and then user go to store click on "Add to cart" button(in the store item display) to add chosen item to cart, or click on "arrow up or down" in cart  to increase or reduce the quantity of items in cart, continue button will redirect to the checkout page automatically for order processing.
 
 #### What's working:
-	Registration page
-	Login page
-	User successfully able to fill in the extra information
-	Redirect to the logged in user's profile page.
-	Data getting saved in DB.
-	User enters store
-	Process and check out order
+* [x] Registration page
+* [x] Login page
+* [x] User successfully able to fill in the extra information
+* [x] Redirect to the logged in user's profile page.
+* [x] Data getting saved in DB.
+* [x] User enters store
+* [x] Process and check out order
 
 #### What's not working:
 The checkout page that is getting generated for shipping information that leads to payment processing is reloading and not getting populated or moving to the next page.
-Pending.
+Pending. <br />
 I have examined the code without any trace of where it might have gone wrong. <br />
 
 #### Register Use-case (template)
