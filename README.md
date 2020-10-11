@@ -1,14 +1,17 @@
 ![Pikinhop logo](/static/images/pikinhoplogowhite.jpg "Pikinhop logo")
-## eCommerce Store
+## eCommerce Store 
 ### [Semicolon Africa](https://www.semicolon.africa/)
 ##### <em>Raphael Sani</em>
 ###### Cohort 4
 ###### October 5, 2020
 
+
 ![Pikinhop erd](/static/images/pikinhoperddiagram.jpg "Pikinhop erd diagram")
 
+###### *[Check out PikinHop here](https://sanraph.pythonanywhere.com)*
+
 #### Overview
-<p>The diagram above represents *[PikinHop](https://sanraph.pythonanywhere.com)* children ecommerce model for cohort 4 Django project.</p> 
+<p>The diagram above represents PikinHop children ecommerce model for cohort 4 Django project.</p> 
 <p>We will be working within our apps model.py located in the store app.
 Here we created 5 models, not including the build in Django User model.</p>
 <p> 1.	User – Built in is this _Django User_ model. An instance of this model will be created for each customer that registers with our website. 
