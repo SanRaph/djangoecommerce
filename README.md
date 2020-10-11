@@ -8,7 +8,7 @@
 ![Pikinhop erd](/static/images/pikinhoperddiagram.jpg "Pikinhop erd diagram")
 
 #### Overview
-<p>The diagram above represents PikinHob children ecommerce model for cohort 4 Django project.</p> 
+<p>The diagram above represents [PikinHop](https://sanraph.pythonanywhere.com/) children ecommerce model for cohort 4 Django project.</p> 
 <p>We will be working within our apps model.py located in the store app.
 Here we created 5 models, not including the build in Django User model.</p>
 <p> 1.	User – Built in is this _Django User_ model. An instance of this model will be created for each customer that registers with our website. 
