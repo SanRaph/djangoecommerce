@@ -14,7 +14,7 @@
 <p>The diagram above represents PikinHop children ecommerce model for cohort 4 Django project.</p> 
 <p>We will be working within our apps model.py located in the store app.
 Here we created 5 models, not including the build in Django User model.</p>
-<p> 1.	User – Built in is this Django User model. An instance of this model will be created for each customer that registers with our website. 
+<p> 1.	User – Built in django is this Django User model. An instance of this model will be created for each customer that registers with our website. 
 This model will give us the ability to later use Django default authentication system without having to manually set this up ourselves. </p>
 <p> 2.	Customer – Along with the user model each customer will contain a Customer model that holds a one to one relationship to each user (OneToOneField). </p>
 <p> 3.	Product – The Product model represents the products we have in store. </p>
